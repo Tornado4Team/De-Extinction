@@ -1,0 +1,16 @@
+[
+{
+  "modid": "deextinction",
+  "name": "De-Extinction Mod",
+  "description": "Bringing Extinct life forms to modern day Minecraft (We are alive!).",
+  "version": "0.0.1",
+  "mcversion": "1.10.2",
+  "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2601757-de-extinction-mod-dinosaurs-prehistoric-creatures",
+  "updateUrl": "",
+  "authorList": ["De-Extinction Team"],
+  "credits": "Special thanks to ASDFGirl, ThatsAPaddling, SteveOriginal and our great leader RafaMV",
+  "logoFile": "Logo.png",
+  "screenshots": [],
+  "dependencies": ["mod_MinecraftForge"]
+}
+]

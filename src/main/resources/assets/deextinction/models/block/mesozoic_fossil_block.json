@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "deextinction:blocks/mesozoic_fossil_block"
+   }
+}

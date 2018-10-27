@@ -1,0 +1,30 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "deextinction:centrifuge_block" 
+        },
+    
+        "facing=south": 
+        { 
+            "model": "deextinction:centrifuge_block" 
+        },
+    
+        "facing=east": 
+        { 
+            "model": "deextinction:centrifuge_block","y":270 
+        },
+    
+        "facing=west": 
+        { 
+            "model": "deextinction:centrifuge_block","y":90 
+        },
+    
+        "facing=north": 
+        { 
+            "model": "deextinction:centrifuge_block","y":180 
+        }
+    }
+}
+

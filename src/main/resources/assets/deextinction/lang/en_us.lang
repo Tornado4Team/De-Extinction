@@ -1,0 +1,43 @@
+item.chisel.name=Chisel
+item.cenozoic_fossil_clean.name=Clean Cenozoic Fossil
+item.cenozoic_fossil_dirty.name=Dirty Cenozoic Fossil
+item.mesozoic_fossil_clean.name=Clean Mesozoic Fossil
+item.mesozoic_fossil_dirty.name=Dirty Mesozoic Fossil
+item.paleozoic_fossil_clean.name=Clean Paleozoic Fossil
+item.paleozoic_fossil_dirty.name=Dirty Paleozoic Fossil
+item.kelenken_meat_raw.name=Raw Kelenken Meat
+item.kelenken_meat_cooked.name=Cooked Kelenken Meat
+item.kelenken_feather.name=Kelenken Feather
+item.brush.name=Brush
+item.vial.name=Empty Vial
+item.diamond_shard.name=Diamond Shard
+
+
+//tabs
+itemGroup.modtab=De-Extinction mod
+
+//blocks
+
+tile.paleozoic_fossil_block.name=Paleozoic Fossil
+tile.mesozoic_fossil_block.name=Mesozoic Fossil
+tile.cenozoic_fossil_block.name=Cenozoic Fossil
+tile.cleaning_table_block.name=Fossil Cleaning Station
+tile.embryonic_machine_block.name=Embryonic Research Station
+tile.egg_machine_block.name=Embryo Injection Station
+tile.centrifuge_block.name=Centrifuge
+tile.permafrost_block.name=Permafrost
+
+//Entity
+entity.kelenken.name=Kelenken guillermoi
+entity.arctotherium.name=Arctotherium bonariense
+entity.smilodon.name=Smilodon populator
+entity.glyptodon.name=Glyptodon clavipes
+entity.sebecus.name=Sebecus icaeorhinus
+entity.fisko.name=Error: Felid Not Found
+entity.jai.name=Error: Bovid 1 Not Found
+entity.lucas.name=Error: Avian Not Found 
+entity.rafa.name=Error: Bovid 2 Not Found
+entity.zeinner.name=Error: Suids Not Found
+entity.john.name=Error: Lagomorph Not Found
+entity.ruroni.name=Error: Canid Not Found
+entity.creepy.name=Error: Chiropteran Not Found

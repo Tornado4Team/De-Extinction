@@ -1,0 +1,8 @@
+{
+    "variants":
+    {
+        "variant=cenozoic_fossil": { "model": "deextinction:ore_overworld_cenozoic_fossil" },
+        "variant=mesozoic_fossil": { "model": "deextinction:ore_overworld_mesozoic_fossil" },
+        "variant=paleozoic_fossil": { "model": "deextinction:ore_overworld_paleozoic_fossil" }
+    }
+}

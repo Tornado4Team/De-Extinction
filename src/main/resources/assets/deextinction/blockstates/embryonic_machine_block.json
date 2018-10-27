@@ -1,0 +1,30 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "deextinction:embryonic_machine_block" 
+        },
+    
+        "facing=south": 
+        { 
+            "model": "deextinction:embryonic_machine_block" 
+        },
+    
+        "facing=east": 
+        { 
+            "model": "deextinction:embryonic_machine_block","y":270 
+        },
+    
+        "facing=west": 
+        { 
+            "model": "deextinction:embryonic_machine_block","y":90 
+        },
+    
+        "facing=north": 
+        { 
+            "model": "deextinction:embryonic_machine_block","y":180 
+        }
+    }
+}
+
