@@ -1,0 +1,9 @@
+{
+"type": "forge:ore_shapeless",
+"group": "deextinction:block_sequoiadendron_planks",
+"ingredients": 
+    [
+        { "item": "deextinction:block_sequoiadendron_log", "data": 0 }
+    ],
+"result": { "item": "deextinction:block_sequoiadendron_planks", "data": 0, "count": 4 }
+}

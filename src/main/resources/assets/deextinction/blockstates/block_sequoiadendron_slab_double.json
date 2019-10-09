@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_planks"
+    },
+    "half=top": {
+      "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_planks"
+    }
+  }
+}

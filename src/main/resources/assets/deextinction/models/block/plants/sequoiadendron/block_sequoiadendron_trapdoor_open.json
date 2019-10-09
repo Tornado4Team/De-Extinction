@@ -1,0 +1,7 @@
+{
+    "parent": "block/trapdoor_open",
+    "textures": 
+    {
+        "texture": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_trapdoor"
+    }
+}

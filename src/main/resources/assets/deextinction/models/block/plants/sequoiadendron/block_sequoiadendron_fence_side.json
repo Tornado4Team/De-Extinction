@@ -1,0 +1,6 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_planks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+"group": "deextinction:block_cleaning_table",
+"pattern": 
+    [
+        "BG",
+        "PP",
+        "PP"
+    ],
+"key": 
+    { 
+        "B": { "item": "minecraft:bucket", "data": 0 }, 
+        "G": { "type": "forge:ore_dict", "ore": "blockGlassColorless" }, 
+        "P": { "type": "forge:ore_dict", "ore": "plankWood" } 
+    },
+"result": { "item": "deextinction:block_cleaning_table", "data": 0, "count": 1 }
+}

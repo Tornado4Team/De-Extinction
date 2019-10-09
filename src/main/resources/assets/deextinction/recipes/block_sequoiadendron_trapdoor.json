@@ -1,0 +1,14 @@
+{
+"type": "minecraft:crafting_shaped",
+"group": "deextinction:block_sequoiadendron_trapdoor",
+"pattern": 
+    [
+        "PPP",
+        "PPP"
+    ],
+"key": 
+    { 
+        "P": { "item": "deextinction:block_sequoiadendron_planks", "data": 0 } 
+    },
+"result": { "item": "deextinction:block_sequoiadendron_trapdoor", "data": 0, "count": 2 }
+}

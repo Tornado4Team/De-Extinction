@@ -1,0 +1,15 @@
+{
+"type": "minecraft:crafting_shaped",
+"group": "deextinction:item_brush",
+"pattern": 
+    [
+        "FFF",
+        " S "
+    ],
+"key": 
+    { 
+        "S": { "type": "forge:ore_dict", "ore": "stickWood" }, 
+        "F": { "type": "forge:ore_dict", "ore": "feather" }
+    },
+"result": { "item": "deextinction:item_brush", "data": 0, "count": 1 }
+}

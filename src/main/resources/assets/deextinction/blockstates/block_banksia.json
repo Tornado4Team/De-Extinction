@@ -1,0 +1,8 @@
+{
+    "variants": 
+    {
+        "type=yellow": { "model": "deextinction:plants/banksia/block_banksia_yellow" },
+        "type=orange": { "model": "deextinction:plants/banksia/block_banksia_orange" },
+        "type=red": { "model": "deextinction:plants/banksia/block_banksia_red" }
+    }
+}

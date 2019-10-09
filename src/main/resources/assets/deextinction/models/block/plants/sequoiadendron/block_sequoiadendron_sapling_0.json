@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_sapling_0"
+  }
+}

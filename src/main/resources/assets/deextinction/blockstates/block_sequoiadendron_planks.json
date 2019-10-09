@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "normal": 
+        {
+          "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_planks"
+        }
+    }
+}

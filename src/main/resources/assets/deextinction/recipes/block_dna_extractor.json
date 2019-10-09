@@ -1,0 +1,19 @@
+{
+"type": "minecraft:crafting_shaped",
+"group": "deextinction:block_dna_extractor",
+"pattern": 
+    [
+        "IID",
+        "L  ",
+        "BRR"
+    ],
+"key": 
+    { 
+        "I": { "type": "forge:ore_dict", "ore": "ingotIron" }, 
+        "D": { "type": "forge:ore_dict", "ore": "gemDiamond" }, 
+        "R": { "type": "forge:ore_dict", "ore": "dustRedstone" }, 
+        "B": { "type": "forge:ore_dict", "ore": "blockIron" }, 
+        "L": { "item": "minecraft:redstone_lamp", "data": 0 } 
+    },
+"result": { "item": "deextinction:block_dna_extractor", "data": 0, "count": 1 }
+}

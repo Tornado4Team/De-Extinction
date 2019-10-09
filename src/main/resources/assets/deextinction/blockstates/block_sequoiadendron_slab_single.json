@@ -1,0 +1,11 @@
+{
+    "variants": 
+    {
+        "half=bottom": {
+          "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_slab_half"
+        },
+        "half=top": {
+          "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_slab_upper"
+        }
+    }
+}

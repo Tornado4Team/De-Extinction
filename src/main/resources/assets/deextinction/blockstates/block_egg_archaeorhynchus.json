@@ -1,0 +1,40 @@
+{
+    "variants": 
+    {
+        "eggs=1": 
+        [
+            { "model": "deextinction:eggs/block_egg_small_1" },
+            { "model": "deextinction:eggs/block_egg_small_1", "y": 90 },
+            { "model": "deextinction:eggs/block_egg_small_1", "y": 180 },
+            { "model": "deextinction:eggs/block_egg_small_1", "y": 270 }
+        ],
+        "eggs=2": 
+        [
+            { "model": "deextinction:eggs/block_egg_small_2" },
+            { "model": "deextinction:eggs/block_egg_small_2", "y": 90 },
+            { "model": "deextinction:eggs/block_egg_small_2", "y": 180 },
+            { "model": "deextinction:eggs/block_egg_small_2", "y": 270 }
+        ],
+        "eggs=3": 
+        [
+            { "model": "deextinction:eggs/block_egg_small_3" },
+            { "model": "deextinction:eggs/block_egg_small_3", "y": 90 },
+            { "model": "deextinction:eggs/block_egg_small_3", "y": 180 },
+            { "model": "deextinction:eggs/block_egg_small_3", "y": 270 }
+        ],
+        "eggs=4": 
+        [
+            { "model": "deextinction:eggs/block_egg_small_4" },
+            { "model": "deextinction:eggs/block_egg_small_4", "y": 90 },
+            { "model": "deextinction:eggs/block_egg_small_4", "y": 180 },
+            { "model": "deextinction:eggs/block_egg_small_4", "y": 270 }
+        ],
+        "eggs=5": 
+        [
+            { "model": "deextinction:eggs/block_egg_small_5" },
+            { "model": "deextinction:eggs/block_egg_small_5", "y": 90 },
+            { "model": "deextinction:eggs/block_egg_small_5", "y": 180 },
+            { "model": "deextinction:eggs/block_egg_small_5", "y": 270 }
+        ]
+    }
+}

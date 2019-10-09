@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+"group": "deextinction:item_syringe",
+"pattern": 
+    [
+        "N  ",
+        " G ",
+        "  I"
+    ],
+"key": 
+    { 
+        "N": { "type": "forge:ore_dict", "ore": "nuggetIron" }, 
+        "G": { "item": "minecraft:glass_bottle", "data": 0 }, 
+        "I": { "type": "forge:ore_dict", "ore": "ingotIron" }
+    },
+"result": { "item": "deextinction:item_syringe", "data": 0, "count": 1 }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_door_lower",
+    "top": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_door_upper"
+  }
+}

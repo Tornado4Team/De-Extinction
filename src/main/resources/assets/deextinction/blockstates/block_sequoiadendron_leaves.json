@@ -1,0 +1,21 @@
+{
+    "variants": 
+    {
+        "check_decay=false,decayable=false": 
+        {
+          "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_leaves"
+        },
+        "check_decay=true,decayable=false": 
+        {
+          "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_leaves"
+        },
+        "check_decay=true,decayable=true": 
+        {
+          "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_leaves"
+        },
+        "check_decay=false,decayable=true": 
+        {
+          "model": "deextinction:plants/sequoiadendron/block_sequoiadendron_leaves"
+        }
+    }
+}

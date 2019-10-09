@@ -1,0 +1,259 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "blocks/iron_block",
+        "0": "blocks/iron_block",
+        "1": "deextinction:blocks/machine_base",
+        "2": "blocks/glass",
+        "3": "deextinction:blocks/machine_monitor"
+    },
+    "display": {
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 45 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 0.5, 0, 0.5 ], 
+            "to": [ 15.5, 1, 15.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "east": { "texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "south": { "texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "west": { "texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "up": { "texture": "#0", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#0", "uv": [ 0, 1, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Syringes-base",
+            "from": [ 1, 0.5, 3 ], 
+            "to": [ 15, 1.5, 15 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0, 0, 11, 1 ] },
+                "east": { "texture": "#1", "uv": [ 0, 0, 8, 1 ] },
+                "south": { "texture": "#1", "uv": [ 0, 0, 11, 1 ] },
+                "west": { "texture": "#1", "uv": [ 0, 0, 8, 1 ] },
+                "up": { "texture": "#1", "uv": [ 0, 0, 11, 8 ] }
+            }
+        },
+        {
+            "name": "Syringes-back",
+            "from": [ 1, 1.5, 3 ], 
+            "to": [ 15, 8.5, 10 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 4, 4, 14, 10 ] },
+                "east": { "texture": "#1", "uv": [ 7, 4, 11, 10 ] },
+                "south": { "texture": "#1", "uv": [ 3, 4, 13, 10 ] },
+                "west": { "texture": "#1", "uv": [ 6, 3, 10, 9 ] },
+                "up": { "texture": "#1", "uv": [ 2, 3, 12, 7 ] }
+            }
+        },
+        {
+            "name": "SyringeA",
+            "from": [ 12, 2, 11 ], 
+            "to": [ 13.5, 6, 12.5 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 1, 0, 15.5, 16 ] },
+                "east": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "south": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "west": { "texture": "#2", "uv": [ 0, 0, 1.5, 4 ] },
+                "up": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] },
+                "down": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] }
+            }
+        },
+        {
+            "name": "Syringes-hold",
+            "from": [ 2, 4, 10 ], 
+            "to": [ 14, 5, 12 ], 
+            "faces": {
+                "south": { "texture": "#0", "uv": [ 3, 1, 15, 2 ] },
+                "up": { "texture": "#0", "uv": [ 2, 1, 14, 3 ] },
+                "down": { "texture": "#0", "uv": [ 2, 1, 14, 3 ] }
+            }
+        },
+        {
+            "name": "Syringes-top",
+            "from": [ 1, 7.5, 10 ], 
+            "to": [ 15, 8.5, 14 ], 
+            "faces": {
+                "east": { "texture": "#1", "uv": [ 2, 3, 9, 5 ] },
+                "south": { "texture": "#1", "uv": [ 3, 4, 13, 6 ] },
+                "west": { "texture": "#1", "uv": [ 6, 2, 13, 4 ] },
+                "up": { "texture": "#1", "uv": [ 1, 0, 11, 7 ] },
+                "down": { "texture": "#1", "uv": [ 0, 0, 10, 7 ] }
+            }
+        },
+        {
+            "name": "Syringes-needleA",
+            "from": [ 12.3, 6.5, 11.3 ], 
+            "to": [ 13.3, 7.5, 12.3 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 8, 2, 9, 3 ] },
+                "east": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "Monitor",
+            "from": [ 1.5, 6, 10 ], 
+            "to": [ 14.5, 14, 13 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 2, 1, 16, 15 ] },
+                "east": { "texture": "#1", "uv": [ 9, 2, 12, 16 ] },
+                "south": { "texture": "#3", "uv": [ 0, 0, 16, 10 ] },
+                "west": { "texture": "#1", "uv": [ 3, 0, 6, 14 ] },
+                "up": { "texture": "#1", "uv": [ 1, 4, 15, 7 ] },
+                "down": { "texture": "#1", "uv": [ 0, 0, 13, 3 ] }
+            }
+        },
+        {
+            "name": "Monitor-base",
+            "from": [ 2, 8, 4 ], 
+            "to": [ 14, 14, 10 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 5, 5, 13, 12 ] },
+                "east": { "texture": "#1", "uv": [ 4, 1, 8, 8 ] },
+                "south": { "texture": "#1", "uv": [ 5, 3, 13, 10 ] },
+                "west": { "texture": "#1", "uv": [ 3, 3, 10, 11 ] },
+                "up": { "texture": "#1", "uv": [ 2, 3, 10, 7 ] }
+            }
+        },
+        {
+            "name": "AnalyzerLeft",
+            "from": [ 1, 1.5, 10 ], 
+            "to": [ 2, 7.5, 14 ], 
+            "faces": {
+                "east": { "texture": "#1", "uv": [ 0, 0, 4, 6 ] },
+                "south": { "texture": "#1", "uv": [ 0, 0, 1, 6 ] },
+                "west": { "texture": "#1", "uv": [ 5, 0, 9, 6 ] }
+            }
+        },
+        {
+            "name": "TestSyringe",
+            "from": [ 2.5, 2, 11 ], 
+            "to": [ 4, 6, 12.5 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "east": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "south": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "west": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "up": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] },
+                "down": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] }
+            }
+        },
+        {
+            "name": "AnalyzerLeft",
+            "from": [ 14, 1.5, 10 ], 
+            "to": [ 15, 7.5, 14 ], 
+            "faces": {
+                "east": { "texture": "#1", "uv": [ 0, 0, 4, 6 ] },
+                "south": { "texture": "#1", "uv": [ 0, 0, 1, 6 ] },
+                "west": { "texture": "#1", "uv": [ 5, 0, 9, 6 ] }
+            }
+        },
+        {
+            "name": "SyringeA",
+            "from": [ 9, 2, 11 ], 
+            "to": [ 10.5, 6, 12.5 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 1, 0, 15.5, 16 ] },
+                "east": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "south": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "west": { "texture": "#2", "uv": [ 0, 0, 1.5, 4 ] },
+                "up": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] },
+                "down": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] }
+            }
+        },
+        {
+            "name": "SyringeA",
+            "from": [ 5.5, 2, 11 ], 
+            "to": [ 7, 6, 12.5 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 1, 0, 15.5, 16 ] },
+                "east": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "south": { "texture": "#2", "uv": [ 0, 0, 15.5, 16 ] },
+                "west": { "texture": "#2", "uv": [ 0, 0, 1.5, 4 ] },
+                "up": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] },
+                "down": { "texture": "#2", "uv": [ 0, 0, 15.5, 15.5 ] }
+            }
+        },
+        {
+            "name": "Syringes-needleA",
+            "from": [ 9.3, 6.5, 11.3 ], 
+            "to": [ 10.3, 7.5, 12.3 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 8, 2, 9, 3 ] },
+                "east": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "Syringes-needleA",
+            "from": [ 5.7, 6.5, 11.3 ], 
+            "to": [ 6.7, 7.5, 12.3 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 8, 2, 9, 3 ] },
+                "east": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "Syringes-needleA",
+            "from": [ 2.7, 6.5, 11.3 ], 
+            "to": [ 3.7, 7.5, 12.3 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 8, 2, 9, 3 ] },
+                "east": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] },
+                "down": { "texture": "#0", "uv": [ 0, 0, 1, 1 ] }
+            }
+        }
+    ]
+}

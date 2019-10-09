@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "deextinction:block_dna_extractor_off"
+  },
+  "variants": {
+    "facing=south,working=false": { "y": 0 },
+    "facing=west,working=false": { "y": 90 },
+    "facing=north,working=false": { "y": 180 },
+    "facing=east,working=false": { "y": 270 },
+    "facing=south,working=true": { "model": "deextinction:block_dna_extractor_on", "y": 0 },
+    "facing=west,working=true": { "model": "deextinction:block_dna_extractor_on", "y": 90 },
+    "facing=north,working=true": { "model": "deextinction:block_dna_extractor_on", "y": 180 },
+    "facing=east,working=true": { "model": "deextinction:block_dna_extractor_on", "y": 270 }
+  }
+}

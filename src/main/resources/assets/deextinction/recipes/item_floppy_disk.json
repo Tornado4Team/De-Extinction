@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+"group": "deextinction:item_floppy_disk_empty",
+"pattern": 
+    [
+        "III",
+        "IRI",
+        "IQI"
+    ],
+"key": 
+    { 
+        "Q": { "type": "forge:ore_dict", "ore": "gemQuartz" }, 
+        "I": { "type": "forge:ore_dict", "ore": "nuggetIron" }, 
+        "R": { "type": "forge:ore_dict", "ore": "dustRedstone" }
+    },
+"result": { "item": "deextinction:item_floppy_disk_empty", "data": 0, "count": 1 }
+}

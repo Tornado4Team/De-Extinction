@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "base_block=stone": { "model": "deextinction:fossil/block_fossil_animal_stone" },
+        "base_block=granite": { "model": "deextinction:fossil/block_fossil_animal_granite" },
+        "base_block=diorite": { "model": "deextinction:fossil/block_fossil_animal_diorite" },
+        "base_block=andesite": { "model": "deextinction:fossil/block_fossil_animal_andesite" },
+        "base_block=sandstone": { "model": "deextinction:fossil/block_fossil_animal_sandstone" }
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"variants": 
+	{
+        "facing=south": 
+        {
+            "model": "deextinction:block_dna_editor",
+            "y": 0
+        },
+        "facing=west": 
+        {
+            "model": "deextinction:block_dna_editor",
+            "y": 90
+        },
+        "facing=north": 
+        {
+            "model": "deextinction:block_dna_editor",
+            "y": 180
+        },
+        "facing=east": 
+        {
+            "model": "deextinction:block_dna_editor",
+            "y": 270
+        }
+	}
+}

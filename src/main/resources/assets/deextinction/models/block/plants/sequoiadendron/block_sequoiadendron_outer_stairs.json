@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_planks",
+    "top": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_planks",
+    "side": "deextinction:blocks/plants/sequoiadendron/sequoiadendron_planks"
+  }
+}

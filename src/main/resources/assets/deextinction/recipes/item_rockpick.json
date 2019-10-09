@@ -1,0 +1,17 @@
+{
+"type": "minecraft:crafting_shaped",
+"group": "deextinction:item_rockpick",
+"pattern": 
+    [
+        "DIS",
+        " S ",
+        "S  "
+    ],
+"key": 
+    { 
+        "S": { "type": "forge:ore_dict", "ore": "stickWood" }, 
+        "I": { "type": "forge:ore_dict", "ore": "ingotIron" }, 
+        "D": { "type": "forge:ore_dict", "ore": "gemDiamond" }
+    },
+"result": { "item": "deextinction:item_rockpick", "data": 0, "count": 1 }
+}
