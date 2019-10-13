@@ -94,6 +94,7 @@ public class TileDNADecoder extends TileMachine
 			return 0;
 	}
 
+	@SuppressWarnings("deprecation")
 	public String getWarningForGui()
 	{
 		String deExtinctedName = this.getNameFromDNABottle();
@@ -252,13 +253,13 @@ public class TileDNADecoder extends TileMachine
 				if (!dna_floppy_disk.isEmpty())
 				{
 					NBTTagCompound compound_disk = new NBTTagCompound();
-					compound_disk.setString(ItemFloppyDisk.NBT_TAG_DNA_STRING, DNA.DEFAULT_DNA_STRING);
-					compound_disk.setInteger(ItemFloppyDisk.NBT_TAG_VIABILITY, 70);
+					compound_disk.getString(ItemFloppyDisk.NBT_TAG_DNA_STRING);
+					compound_disk.getInteger(ItemFloppyDisk.NBT_TAG_VIABILITY);
 					dna_floppy_disk.setTagCompound(compound_disk);
 
 					for (int slotIndex : this.getSlotsBottom())
 					{
-						if (!this.getSlot(slotIndex).isEmpty() && this.getSlot(slotIndex).getItem() instanceof ItemFloppyDisk && this.getSlot(slotIndex).getTagCompound().equals(compound_disk))
+						if (this.getSlot(slotIndex).isEmpty() && this.getSlot(slotIndex).getItem() instanceof ItemFloppyDisk && this.getSlot(slotIndex).getTagCompound().equals(compound_disk))
 						{
 							this.growStack(slotIndex, 1);
 							hasSetStack = true;
