@@ -220,6 +220,7 @@ item.item_floppy_disk_empty.name=Floppy Disk Empty
 item.item_syringe.name=Empty Syringe
 item.item_syringe.inseminated=Embryo Inseminated
 item.item_syringe_blood.name=Syringe with Blood
+item.item_guide.name=De-Extinction Guide Book
 
 
 
@@ -247,6 +248,25 @@ entity.creature.newborn=newborn
 itemGroup.de_tab_blocks=De-Extinction Blocks
 itemGroup.de_tab_items=De-Extinction Items
 itemGroup.de_tab_research=De-Extinction Research
+
+// Guide
+gui.deextinction.railroad.category=Placeholder
+gui.deextinction.redstone.category=Placeholder
+gui.deextinction.catwalk.category=Placeholder
+gui.deextinction.fences.category=Placeholder
+gui.deextinction.utilities.category=Placeholder
+gui.deextinction.construction.category=Placeholder
+gui.deextinction.steam_locomotive.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.fuse_box.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.cargo_container.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.fluid_container.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.fire_extinguisher.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.flame_detector.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.gutter.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.entity_detector.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.first-aid_box.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+gui.deextinction.rails.text0=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros et odio lacinia tincidunt dignissim at lectus. Ut gravida, dui sit amet sodales sagittis, mi mauris malesuada mi, sit amet bibendum odio libero ut tortor. Fusce et massa non quam pellentesque interdum ut ut turpis. Nam in massa imperdiet, hendrerit dolor in, tincidunt dui. Integer dignissim lacus ex. Aliquam nec erat a elit semper interdum in vitae nibh. Nulla dictum nisi eu ipsum sagittis facilisis.
+
 
 
 

@@ -5,12 +5,14 @@ import java.util.Locale;
 
 import com.deextinction.database.DeExtincted;
 import com.deextinction.database.ISyringe;
+import com.deextinction.item.ItemBasic;
 import com.deextinction.item.ItemBrush;
 import com.deextinction.item.ItemDNABottle;
 import com.deextinction.item.ItemFloppyDisk;
 import com.deextinction.item.ItemFloppyDiskEmpty;
 import com.deextinction.item.ItemFossilClean;
 import com.deextinction.item.ItemFossilDirty;
+import com.deextinction.item.ItemGuide;
 import com.deextinction.item.ItemRockPick;
 import com.deextinction.item.ItemSyringe;
 import com.deextinction.item.ItemSyringeBlood;
@@ -31,12 +33,16 @@ public class DeItems
 	public static ItemBrush brush = new ItemBrush(DeCreativeTabs.items);
 	public static ItemSyringe syringe = new ItemSyringe(DeCreativeTabs.items);
 	public static ItemSyringeBlood syringe_blood = new ItemSyringeBlood(null);
+	
+	
+	public static ItemGuide guide = new ItemGuide(DeCreativeTabs.items);
 
 	public static void preInitItems()
 	{
 		DeItems.registerItem(DeItems.dna_floppy_disk_empty, "item_floppy_disk_empty");
 		DeItems.registerItem(DeItems.rockpick, "item_rockpick");
 		DeItems.registerItem(DeItems.brush, "item_brush");
+		DeItems.registerItem(DeItems.guide, "item_guide");
 		DeItems.registerItem(DeItems.syringe, "item_syringe");
 		DeItems.registerItem(DeItems.syringe_blood, "item_syringe_blood");
 

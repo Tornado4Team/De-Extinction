@@ -141,6 +141,7 @@ public class DeRendering
 		DeRendering.registerItemRenderer(DeItems.brush);
 		DeRendering.registerItemRenderer(DeItems.syringe);
 		DeRendering.registerItemRenderer(DeItems.syringe_blood);
+		DeRendering.registerItemRenderer(DeItems.guide);
 	}
 
 	public static void registerItemRenderer(Item item, int meta, String path)

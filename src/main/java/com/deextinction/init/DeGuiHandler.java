@@ -6,6 +6,7 @@ import com.deextinction.client.gui.inventory.GuiDNADecoder;
 import com.deextinction.client.gui.inventory.GuiDNAEditor;
 import com.deextinction.client.gui.inventory.GuiDNAExtractor;
 import com.deextinction.client.gui.inventory.GuiDeExtinctionMachine;
+import com.deextinction.client.gui.inventory.GuiGuide;
 import com.deextinction.client.gui.inventory.GuiItemDeExtinction;
 import com.deextinction.client.gui.inventory.GuiMicroscope;
 import com.deextinction.tileentities.TileCleaningTable;
@@ -37,6 +38,7 @@ public class DeGuiHandler implements IGuiHandler
 	public static final int ID_ITEM_CREATIVE = -1;
 	public static final int ID_BLOCK = 0;
 	public static final int ID_ENTITY = 1;
+	public static final int ID_GUIDE = 2;
 
 	@Override
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
@@ -95,8 +97,13 @@ public class DeGuiHandler implements IGuiHandler
 		}
 		else if (ID == ID_ITEM_CREATIVE)
 		{
+			
 			return new GuiItemDeExtinction();
+
 		}
+		else if (ID ==  ID_GUIDE) {
+			return new GuiGuide(world, player);
+			}
 
 		System.err.println("ERROR: Invalid ID: " + ID);
 		return null;
